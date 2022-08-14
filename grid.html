@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px; */
+            /* grid-template-columns: repeat(4, 1fr) 200px 200px; */
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px 10px;
+        }
+
+        .grid-cell {
+            border: 2px solid goldenrod;
+            font-size: 1.5em;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-cell">Cell number1</div>
+        <div class="grid-cell">Cell number2</div>
+        <div class="grid-cell">Cell number3</div>
+        <div class="grid-cell">Cell number4</div>
+        <div class="grid-cell">Cell number5</div>
+        <div class="grid-cell">Cell number6</div>
+        <div class="grid-cell">Cell number7</div>
+        <div class="grid-cell">Cell number8</div>
+        <div class="grid-cell">Cell number9</div>
+        <div class="grid-cell">Cell number10</div>
+        <div class="grid-cell">Cell number11</div>
+        <div class="grid-cell">Cell number12</div>
+    </div>
+</body>
+
+</html>
